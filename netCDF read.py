@@ -16,25 +16,7 @@ ds = Dataset('E:/Climate Physics/MAIO/Cabauw Large scale circulation/cesar_tower
 
 def ncdump(nc_fid, verb=True):
     '''
-    ncdump outputs dimensions, variables and their attribute information.
-    The information is similar to that of NCAR's ncdump utility.
-    ncdump requires a valid instance of Dataset.
-
-    Parameters
-    ----------
-    nc_fid : netCDF4.Dataset
-        A netCDF4 dateset object
-    verb : Boolean
-        whether or not nc_attrs, nc_dims, and nc_vars are printed
-
-    Returns
-    -------
-    nc_attrs : list
-        A Python list of the NetCDF file global attributes
-    nc_dims : list
-        A Python list of the NetCDF file dimensions
-    nc_vars : list
-        A Python list of the NetCDF file variables
+    
     '''
     def print_ncattr(key):
         """
