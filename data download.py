@@ -80,7 +80,10 @@ def list_dataset_files(
     except Exception as e:
         logger.error(e)
         raise Exception(e)
-
+"""
+Operational API key: 5e554e19274a9600012a3eb1b626f95624124cf89e9b5d74c3304520
+API Key Hash: d25e2b5454cf6f4b717a139a7f3d9372
+"""
 
 async def main():
     api_key = "5e554e19274a9600012a3eb1b626f95624124cf89e9b5d74c3304520" #This API key is for bulk downloads provided by KNMI(Available till 25 May 2021)
