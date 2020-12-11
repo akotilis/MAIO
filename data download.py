@@ -9,7 +9,7 @@ import logging
 from concurrent.futures.process import ProcessPoolExecutor
 from pathlib import Path
 from typing import Tuple, Dict, List, Any
-import nest_asyncio
+import nest_asyncio         
 nest_asyncio.apply()
 
 import requests
@@ -83,7 +83,7 @@ def list_dataset_files(
 
 
 async def main():
-    api_key = "5e554e19274a9600012a3eb1b626f95624124cf89e9b5d74c3304520"
+    api_key = "5e554e19274a9600012a3eb1b626f95624124cf89e9b5d74c3304520" #This API key is for bulk downloads provided by KNMI(Available till 25 May 2021)
     dataset_name = "cesar_surface_meteo_lb1_t10"
     dataset_version = "v1.0"
     base_url = "https://api.dataplatform.knmi.nl/open-data"
